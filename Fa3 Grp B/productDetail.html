@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="productDetail.css" />
+    <title>Product Details</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="extraFont">Logo</h1>
+      <div class="header-right">
+        <a href="">Home</a>
+        <a href="">Menu</a>
+        <a href="">Contact Us</a>
+        <a href="">
+          <i class="fas fa-shopping-cart"></i>
+          <div class="cartItemCount">0</div>
+        </a>
+      </div>
+    </div>
+    <div class="productInfoWrapper">
+      <div class="productImageHolder">
+        <img src="images/pro1.jpg" alt="" />
+      </div>
+      <div class="productInfoHolder">
+        <h1 class="">Product Name Fetched From Server Via Server</h1>
+        <h3>Cooking Time: &nbsp;&nbsp;<span>30min</span></h3>
+        <div class="productPriceHolder">
+          <img src="images/priceholder.png" alt="" />
+          <h2>₹849</h2>
+        </div>
+        <button onclick="location.href='checkout1.html'">Buy Now</button>
+        <div class="productDescriptionContainer">
+          <h3>Product Description</h3>
+          <h4>
+            If Backend is connected then this description is fetched from backed
+            not as random as it is now. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="productReviewContainer">
+      <h2>Product Reviews</h2>
+      <div class="customerReview">
+        <img class="customerImage" src="images/customer_image.jpg" alt="" />
+        <div class="customerInfo">
+          <h3>James Bond</h3>
+          <img src="images/rating.png" alt="" />
+          <span
+            >Pizza salami farm local Chinese food. Caramelize cheese lovely.
+            Yummy delivery flavor sausage aroma cafe lovely bistro.
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      Copyright &copy; 2020 Delhi India, All rights reserved.
+    </div>
+  </body>
+</html>
