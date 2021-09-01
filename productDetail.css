@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #eee;
+}
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: #ffffff;
+  padding: 0 40px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.extraFont {
+  font-family: "Berkshire Swash", cursive;
+}
+.header-right {
+  flex: 1;
+  text-align: right;
+}
+.header-right a {
+  font-size: 17px;
+  text-decoration: none;
+  color: #464646;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  margin-left: 40px;
+  color: black;
+}
+.cartItemCount {
+  position: absolute;
+  top: -7px;
+  right: -13px;
+  padding: 1px 5px;
+  background-color: red;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 12px;
+}
+.productInfoWrapper {
+  width: 80%;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  padding: 50px 0;
+}
+.productImageHolder {
+  height: 100%;
+  flex: 1;
+  margin-right: 50px;
+  position: relative;
+}
+.productInfoHolder {
+  flex: 1;
+  height: 100%;
+}
+.productInfoHolder h1 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 30px;
+}
+.productInfoHolder h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #46464698;
+}
+.productInfoHolder h3 span {
+  color: #6fed68;
+}
+.productPriceHolder {
+  height: 50px;
+  margin-top: 30px;
+  position: relative;
+}
+.productPriceHolder img {
+  height: 50px;
+}
+.productPriceHolder h2 {
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 25px;
+}
+.productDescriptionContainer {
+  margin-top: 30px;
+}
+.productDescriptionContainer h3 {
+  color: rgb(56, 56, 56);
+}
+.productDescriptionContainer h4 {
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: #46464698;
+}
+.productImageHolder img {
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.productInfoHolder button {
+  margin-top: 20px;
+  padding: 10px 40px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  background: #6fed68;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.productInfoHolder button:hover {
+  cursor: pointer;
+  background: #45a740;
+}
+.productReviewContainer {
+  width: 80%;
+  margin: 10px auto;
+}
+.productReviewContainer h2 {
+  font-family: "Montserrat", sans-serif;
+}
+.customerImage {
+  height: 60px;
+  border-radius: 50%;
+  display: block;
+}
+.customerReview {
+  margin-top: 10px;
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  width: 50%;
+}
+.customerReview span {
+  margin-top: 10px;
+  margin-left: 40px;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  color: #46464698;
+}
+.customerInfo h3 {
+  margin-left: 40px;
+  font-family: "Montserrat", sans-serif;
+  display: inline;
+  margin-right: 20px;
+}
+.customerInfo img {
+  display: inline;
+  height: 20px;
+}
+.footer {
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  color: #46464698;
+  padding: 0 50px;
+  box-sizing: border-box;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background: white;
+}
